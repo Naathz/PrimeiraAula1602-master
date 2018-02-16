@@ -1,0 +1,5 @@
+<resources>
+    <string name="label_botao_da_sorte">Generate number</string>
+    <string name="app_name" translatable="false">Primeira aula</string>
+    <string name="desenvolvido_por">Developed by Nathalie Zago</string>
+</resources>

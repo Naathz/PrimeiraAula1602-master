@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_botao_da_sorte">Gerar número da sorte</string>
+    <string name="desenvolvido_por">Desenvolvido por Nathalie Zago</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <!--para a barra escrito "primeira aula suma quando rodar o app-->
+        <!--temos que informar que ele deve herdar características do AppTheme, se não esses itens abaixo não rodam-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item> <!--só nesse mexe na propriedade do android-->
+
+        <!--para aplicar o tema, ele será aplicado no Manifest-->
+    </style>
+
+    <style name="layout_rodape_splash">
+        <item name="android:textColor">@color/cor_texto_splash</item>
+        <item name="android:textSize">@dimen/tamanho_texto_splash</item> <!--faça com o @ para vc só alterar num ponto específico e ficar fácil para alterar se for mudar de plataforma-->
+    </style>
+</resources>
